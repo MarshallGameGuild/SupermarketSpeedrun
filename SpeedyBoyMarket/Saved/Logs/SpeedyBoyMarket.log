@@ -1,4 +1,4 @@
-﻿Log file open, 09/26/19 16:37:41
+﻿Log file open, 10/03/19 17:10:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: SpeedyBoyMarket
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.090490
+LogStats: Stats thread started at 0.077786
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,427 +157,431 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.09.26-20.37.41:447][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.09.26-20.37.41:447][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.09.26-20.37.41:448][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.09.26-20.37.41:448][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.09.26-20.37.41:454][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.26-20.37.41:454][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.26-20.37.41:455][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.26-20.37.41:455][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.26-20.37.41:455][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.09.26-20.37.41:459][  0]LogHAL: Display: Platform has ~ 32 GB [34299052032 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.09.26-20.37.41:459][  0]LogInit: Going up to parent DeviceProfile []
-[2019.09.26-20.37.41:459][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:459][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.26-20.37.41:459][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.26-20.37.41:459][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:459][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.26-20.37.41:460][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.09.26-20.37.41:461][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.09.26-20.37.41:461][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.09.26-20.37.41:461][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.09.26-20.37.41:461][  0]LogInit: Computer: COSWAEC1104-1
-[2019.09.26-20.37.41:461][  0]LogInit: User: bennett253
-[2019.09.26-20.37.41:461][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.09.26-20.37.41:461][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.09.26-20.37.41:461][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.09.26-20.37.41:461][  0]LogMemory: Platform Memory Stats for Windows
-[2019.09.26-20.37.41:461][  0]LogMemory: Process Physical Memory: 100.89 MB used, 100.89 MB peak
-[2019.09.26-20.37.41:461][  0]LogMemory: Process Virtual Memory: 88.83 MB used, 88.83 MB peak
-[2019.09.26-20.37.41:461][  0]LogMemory: Physical Memory: 6686.85 MB used,  26023.28 MB free, 32710.13 MB total
-[2019.09.26-20.37.41:461][  0]LogMemory: Virtual Memory: 4656.85 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.09.26-20.37.41:464][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.09.26-20.37.41:499][  0]LogInit: Using OS detected language (en-US).
-[2019.09.26-20.37.41:499][  0]LogInit: Using OS detected locale (en-US).
-[2019.09.26-20.37.41:500][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.09.26-20.37.41:659][  0]LogInit: Setting process to per monitor DPI aware
-[2019.09.26-20.37.41:705][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.09.26-20.37.41:705][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.09.26-20.37.41:868][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.09.26-20.37.41:868][  0]LogD3D11RHI: D3D11 adapters:
-[2019.09.26-20.37.41:940][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 745' (Feature Level 11_0)
-[2019.09.26-20.37.41:940][  0]LogD3D11RHI:       4053/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.09.26-20.37.41:943][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.09.26-20.37.41:943][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.09.26-20.37.41:943][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.09.26-20.37.41:948][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.09.26-20.37.41:948][  0]LogD3D11RHI:     GPU DeviceId: 0x1382 (for the marketing name, search the web for "GPU Device Id")
-[2019.09.26-20.37.41:948][  0]LogWindows: EnumDisplayDevices:
-[2019.09.26-20.37.41:948][  0]LogWindows:    0. 'NVIDIA GeForce GTX 745' (P:1 D:1)
-[2019.09.26-20.37.41:948][  0]LogWindows:    1. 'NVIDIA GeForce GTX 745' (P:0 D:1)
-[2019.09.26-20.37.41:949][  0]LogWindows:    2. 'NVIDIA GeForce GTX 745' (P:0 D:0)
-[2019.09.26-20.37.41:949][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2019.09.26-20.37.41:949][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 745
-[2019.09.26-20.37.41:949][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
-[2019.09.26-20.37.41:949][  0]LogD3D11RHI:      Driver Date: 3-16-2018
-[2019.09.26-20.37.41:949][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
-[2019.09.26-20.37.41:980][  0]LogD3D11RHI: Async texture creation enabled
-[2019.09.26-20.37.41:997][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.09.26-20.37.42:443][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.09.26-20.37.42:455][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.09.26-20.37.42:468][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.09.26-20.37.42:480][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.09.26-20.37.42:492][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.09.26-20.37.42:504][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.09.26-20.37.42:516][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.09.26-20.37.42:527][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.09.26-20.37.42:535][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.09.26-20.37.42:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.09.26-20.37.42:573][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.09.26-20.37.42:595][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.09.26-20.37.42:595][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.09.26-20.37.42:612][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.09.26-20.37.42:612][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.09.26-20.37.42:619][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.09.26-20.37.42:626][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.09.26-20.37.42:633][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.09.26-20.37.42:641][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.09.26-20.37.42:665][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.09.26-20.37.42:665][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.09.26-20.37.42:665][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.09.26-20.37.42:679][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.09.26-20.37.42:760][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Intermediate/Shaders/WorkingDirectory/10804/).
-[2019.09.26-20.37.42:762][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bennett253/AppData/Local/Temp/UnrealShaderWorkingDir/3DCAF8B34C8454A7A854CB9E74E45EDB/'.
-[2019.09.26-20.37.42:766][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.09.26-20.37.42:767][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.09.26-20.37.42:767][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.09.26-20.37.43:362][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.09.26-20.37.43:405][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/bennett253/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.09.26-20.37.43:405][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/bennett253/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.09.26-20.37.43:405][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.09.26-20.37.43:405][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.09.26-20.37.43:405][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.26-20.37.43:405][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.09.26-20.37.43:415][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.09.26-20.37.43:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.26-20.37.43:415][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.09.26-20.37.43:419][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bennett253/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.09.26-20.37.43:419][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.09.26-20.37.43:419][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.09.26-20.37.43:438][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.09.26-20.37.43:440][  0]LogSlate: Using FreeType 2.6.0
-[2019.09.26-20.37.43:441][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.09.26-20.37.43:500][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
-[2019.09.26-20.37.43:753][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.26-20.37.43:902][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.09.26-20.37.43:902][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.09.26-20.37.43:902][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.09.26-20.37.43:902][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.09.26-20.37.43:902][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.09.26-20.37.43:911][  0]LogNetVersion: SpeedyBoyMarket 1.0.0, NetCL: 8243293, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1241256940)
-[2019.09.26-20.37.44:300][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.061168 seconds
-[2019.09.26-20.37.44:306][  0]LogUObjectArray: 43426 objects as part of root set at end of initial load.
-[2019.09.26-20.37.44:306][  0]LogUObjectAllocator: 7545544 out of 0 bytes used by permanent object pool.
-[2019.09.26-20.37.44:306][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.09.26-20.37.45:212][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.09.26-20.37.45:215][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.09.26-20.37.45:270][  0]SourceControl: Source control is disabled
-[2019.09.26-20.37.45:270][  0]SourceControl: Source control is disabled
-[2019.09.26-20.37.45:272][  0]SourceControl: Source control is disabled
-[2019.09.26-20.37.45:273][  0]SourceControl: Source control is disabled
-[2019.09.26-20.37.45:308][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/HDRIBackdrop.png' error.
-[2019.09.26-20.37.45:308][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/HDRIBackdrop.png
-[2019.09.26-20.37.45:367][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.09.26-20.37.45:681][  0]LogOcInput: OculusInput pre-init called
-[2019.09.26-20.37.45:689][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.09.26-20.37.45:689][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.09.26-20.37.45:766][  0]LogEngine: Initializing Engine...
-[2019.09.26-20.37.45:768][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.09.26-20.37.45:768][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.09.26-20.37.45:963][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.09.26-20.37.45:988][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.09.26-20.37.46:021][  0]LogInit: XAudio2 using 'VS-66HN (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.09.26-20.37.46:056][  0]LogInit: FAudioDevice initialized.
-[2019.09.26-20.37.46:056][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.09.26-20.37.46:139][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/bennett253/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.09.26-20.37.46:142][  0]LogInit: Texture streaming: Enabled
-[2019.09.26-20.37.46:174][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.09.26-20.37.46:247][  0]LogInit: Transaction tracking system initialized
-[2019.09.26-20.37.46:302][  0]BlueprintLog: New page: Editor Load
-[2019.09.26-20.37.46:443][  0]LocalizationService: Localization service is disabled
-[2019.09.26-20.37.46:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/' took 0.00s
-[2019.09.26-20.37.46:742][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.09.26-20.37.46:742][  0]LogCook: Display: Mobile HDR setting 1
-[2019.09.26-20.37.46:973][  0]SourceControl: Source control is disabled
-[2019.09.26-20.37.46:973][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.09.26-20.37.46:977][  0]LightingResults: New page: Lighting Build
-[2019.09.26-20.37.46:982][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.09.26-20.37.46:982][  0]MapCheck: New page: Map Check
-[2019.09.26-20.37.46:982][  0]LightingResults: New page: Lighting Build
-[2019.09.26-20.37.47:005][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 2048X2048)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 2048X2048)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 2048X2048)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 2048X2048)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 2048X2048)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 2048X2048)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 2048X1024)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 2048X1024)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 2048X1024)
-[2019.09.26-20.37.49:319][  0]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32)
-[2019.09.26-20.37.49:321][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.09.26-20.37.49:350][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.09.26-20.37.49:376][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
-[2019.09.26-20.37.49:376][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.09.26-20.37.49:376][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.176ms to complete.
-[2019.09.26-20.37.49:376][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.403
-[2019.09.26-20.37.49:524][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.26-20.37.49:539][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.26-20.37.49:548][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.26-20.37.49:555][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.26-20.37.49:571][  0]LogCollectionManager: Loaded 0 collections in 0.004356 seconds
-[2019.09.26-20.37.49:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Collections/' took 0.00s
-[2019.09.26-20.37.49:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/Developers/bennett253/Collections/' took 0.00s
-[2019.09.26-20.37.49:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/Collections/' took 0.00s
-[2019.09.26-20.37.49:603][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.09.26-20.37.49:613][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2862 classes and 680 folders.
-[2019.09.26-20.37.49:630][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.09.26-20.37.49:749][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.09.26-20.37.49:773][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.09.26-20.37.49:823][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.09.26-20.37.49:826][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.09.26-20.37.49:835][  0]LogSlate: Took 0.000877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.09.26-20.37.49:933][  0]LogRenderer: Reallocating scene render targets to support 860x572 Format 10 NumSamples 1 (Frame:1).
-[2019.09.26-20.37.50:114][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.09.26-20.37.50:114][  0]LogLoad: (Engine Initialization) Total time: 10.36 seconds
-[2019.09.26-20.37.50:115][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.09.26-20.37.50:158][  0]LogAssetRegistry: Asset discovery search completed in 6.6580 seconds
-[2019.09.26-20.37.50:162][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
-[2019.09.26-20.37.50:162][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
-[2019.09.26-20.37.50:163][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.09.26-20.37.50:189][  0]LogSlate: Took 0.003466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.09.26-20.39.58:094][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.26-20.53.50:180][910]LogHttp: Warning: 000002E88D8DD6C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9862054D-4B61-A3CE-829B-5DAE4F59AF3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8243293%2B%2B%2BUE4%2BRelease-4.23&UserID=993320674afdac039c33b2985646e501%7Cd5ba7f62ebb14b6fbe4953288917be83%7C22c7eb4e-76e8-4220-b659-b095149cd494&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: request failed, libcurl error: 0 (No error)
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2e8bc83bf70 [can pipeline])
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 1 (Re-using existing connection! (#6) with host datarouter.ol.epicgames.com)
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (23.20.51.18) port 443 (#6))
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 3 (We are completely uploaded and fine)
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 7 (Closing connection 6)
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2019.09.26-20.53.50:181][910]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9862054D-4B61-A3CE-829B-5DAE4F59AF3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8243293%2B%2B%2BUE4%2BRelease-4.23&UserID=993320674afdac039c33b2985646e501%7Cd5ba7f62ebb14b6fbe4953288917be83%7C22c7eb4e-76e8-4220-b659-b095149cd494&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2019.09.26-20.59.50:174][ 11]LogHttp: Warning: 000002E88D8DD6C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9862054D-4B61-A3CE-829B-5DAE4F59AF3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8243293%2B%2B%2BUE4%2BRelease-4.23&UserID=993320674afdac039c33b2985646e501%7Cd5ba7f62ebb14b6fbe4953288917be83%7C22c7eb4e-76e8-4220-b659-b095149cd494&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: request failed, libcurl error: 0 (No error)
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2e8bc83bf70 [can pipeline])
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 1 (Re-using existing connection! (#8) with host datarouter.ol.epicgames.com)
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.71.108.254) port 443 (#8))
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 3 (We are completely uploaded and fine)
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 7 (Closing connection 8)
-[2019.09.26-20.59.50:175][ 11]LogHttp: Warning: 000002E88D8DD6C0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2019.09.26-20.59.50:183][ 12]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9862054D-4B61-A3CE-829B-5DAE4F59AF3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8243293%2B%2B%2BUE4%2BRelease-4.23&UserID=993320674afdac039c33b2985646e501%7Cd5ba7f62ebb14b6fbe4953288917be83%7C22c7eb4e-76e8-4220-b659-b095149cd494&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2019.09.26-21.00.50:078][170]LogInit: XAudio2 using 'VS-66HN (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.09.26-21.04.19:372][137]LogInit: XAudio2 using 'VS-66HN (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.03-21.10.36:866][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.03-21.10.36:866][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.03-21.10.36:866][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.03-21.10.36:872][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.03-21.10.36:872][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.03-21.10.36:873][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.03-21.10.36:873][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.03-21.10.36:873][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.03-21.10.36:876][  0]LogHAL: Display: Platform has ~ 32 GB [34299052032 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.03-21.10.36:876][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.03-21.10.36:876][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.03-21.10.36:876][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.03-21.10.36:877][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.03-21.10.36:877][  0]LogInit: Computer: COSWAEC1104-1
+[2019.10.03-21.10.36:878][  0]LogInit: User: bennett253
+[2019.10.03-21.10.36:878][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.03-21.10.36:878][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.03-21.10.36:878][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.10.03-21.10.36:878][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.03-21.10.36:878][  0]LogMemory: Process Physical Memory: 100.91 MB used, 100.91 MB peak
+[2019.10.03-21.10.36:878][  0]LogMemory: Process Virtual Memory: 88.78 MB used, 88.78 MB peak
+[2019.10.03-21.10.36:878][  0]LogMemory: Physical Memory: 6663.47 MB used,  26046.66 MB free, 32710.13 MB total
+[2019.10.03-21.10.36:878][  0]LogMemory: Virtual Memory: 4656.85 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.10.03-21.10.36:880][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.03-21.10.36:906][  0]LogInit: Using OS detected language (en-US).
+[2019.10.03-21.10.36:906][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.03-21.10.36:907][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.03-21.10.37:140][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.03-21.10.37:194][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.03-21.10.37:194][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.03-21.10.37:446][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.03-21.10.37:446][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.03-21.10.37:501][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 745' (Feature Level 11_0)
+[2019.10.03-21.10.37:501][  0]LogD3D11RHI:       4053/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.10.03-21.10.37:503][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.03-21.10.37:503][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.03-21.10.37:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.03-21.10.37:510][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.03-21.10.37:510][  0]LogD3D11RHI:     GPU DeviceId: 0x1382 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.03-21.10.37:510][  0]LogWindows: EnumDisplayDevices:
+[2019.10.03-21.10.37:510][  0]LogWindows:    0. 'NVIDIA GeForce GTX 745' (P:1 D:1)
+[2019.10.03-21.10.37:511][  0]LogWindows:    1. 'NVIDIA GeForce GTX 745' (P:0 D:1)
+[2019.10.03-21.10.37:511][  0]LogWindows:    2. 'NVIDIA GeForce GTX 745' (P:0 D:0)
+[2019.10.03-21.10.37:511][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.10.03-21.10.37:511][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 745
+[2019.10.03-21.10.37:511][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
+[2019.10.03-21.10.37:511][  0]LogD3D11RHI:      Driver Date: 3-16-2018
+[2019.10.03-21.10.37:511][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2019.10.03-21.10.37:550][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.03-21.10.37:568][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.10.03-21.10.37:993][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.03-21.10.38:003][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.03-21.10.38:013][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.03-21.10.38:022][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.03-21.10.38:034][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.03-21.10.38:043][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.03-21.10.38:053][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.03-21.10.38:062][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.03-21.10.38:067][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.03-21.10.38:101][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.03-21.10.38:103][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.03-21.10.38:122][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.03-21.10.38:123][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.03-21.10.38:136][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.03-21.10.38:137][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.03-21.10.38:144][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.03-21.10.38:151][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.03-21.10.38:158][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.03-21.10.38:166][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.03-21.10.38:191][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.03-21.10.38:191][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.03-21.10.38:191][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.03-21.10.38:202][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.03-21.10.38:268][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Intermediate/Shaders/WorkingDirectory/14056/).
+[2019.10.03-21.10.38:270][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bennett253/AppData/Local/Temp/UnrealShaderWorkingDir/98C6FDA74B879443C2EED7BE67DD9C92/'.
+[2019.10.03-21.10.38:273][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.03-21.10.38:273][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.03-21.10.38:273][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.03-21.10.38:902][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.03-21.10.38:946][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/bennett253/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.03-21.10.38:946][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/bennett253/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.03-21.10.38:946][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.03-21.10.38:946][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.03-21.10.38:946][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.03-21.10.38:946][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.03-21.10.38:957][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.03-21.10.38:957][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.03-21.10.38:957][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.03-21.10.38:960][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bennett253/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.03-21.10.38:960][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.03-21.10.38:960][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.03-21.10.38:980][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.03-21.10.38:982][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.03-21.10.38:983][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.03-21.10.39:051][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2019.10.03-21.10.39:318][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.03-21.10.39:467][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.03-21.10.39:467][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.03-21.10.39:467][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.03-21.10.39:467][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.03-21.10.39:467][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.03-21.10.39:481][  0]LogNetVersion: SpeedyBoyMarket 1.0.0, NetCL: 8243293, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1241256940)
+[2019.10.03-21.10.39:883][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.058233 seconds
+[2019.10.03-21.10.39:889][  0]LogUObjectArray: 43426 objects as part of root set at end of initial load.
+[2019.10.03-21.10.39:889][  0]LogUObjectAllocator: 7545544 out of 0 bytes used by permanent object pool.
+[2019.10.03-21.10.39:889][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.03-21.10.40:887][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.03-21.10.40:890][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.03-21.10.40:945][  0]SourceControl: Source control is disabled
+[2019.10.03-21.10.40:945][  0]SourceControl: Source control is disabled
+[2019.10.03-21.10.40:947][  0]SourceControl: Source control is disabled
+[2019.10.03-21.10.40:948][  0]SourceControl: Source control is disabled
+[2019.10.03-21.10.40:988][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/HDRIBackdrop.png' error.
+[2019.10.03-21.10.40:988][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/HDRIBackdrop.png
+[2019.10.03-21.10.41:049][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.03-21.10.41:198][  0]LogOcInput: OculusInput pre-init called
+[2019.10.03-21.10.41:205][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.03-21.10.41:206][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.03-21.10.41:274][  0]LogEngine: Initializing Engine...
+[2019.10.03-21.10.41:275][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.03-21.10.41:276][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.03-21.10.41:474][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.03-21.10.41:490][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.03-21.10.41:513][  0]LogInit: XAudio2 using 'VS-66HN (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.03-21.10.41:524][  0]LogInit: FAudioDevice initialized.
+[2019.10.03-21.10.41:524][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.03-21.10.41:610][  0]LogDerivedDataCache: Saved boot cache 0.09s 73MB C:/Users/bennett253/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.03-21.10.41:612][  0]LogInit: Texture streaming: Enabled
+[2019.10.03-21.10.41:635][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.03-21.10.41:704][  0]LogInit: Transaction tracking system initialized
+[2019.10.03-21.10.41:743][  0]BlueprintLog: New page: Editor Load
+[2019.10.03-21.10.41:842][  0]LocalizationService: Localization service is disabled
+[2019.10.03-21.10.42:084][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/' took 0.00s
+[2019.10.03-21.10.42:084][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.03-21.10.42:084][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.03-21.10.42:278][  0]SourceControl: Source control is disabled
+[2019.10.03-21.10.42:278][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.03-21.10.42:279][  0]LightingResults: New page: Lighting Build
+[2019.10.03-21.10.42:282][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.03-21.10.42:283][  0]MapCheck: New page: Map Check
+[2019.10.03-21.10.42:283][  0]LightingResults: New page: Lighting Build
+[2019.10.03-21.10.42:308][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.10.03-21.10.42:661][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.03-21.10.42:674][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.03-21.10.42:700][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2019.10.03-21.10.42:700][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.03-21.10.42:700][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.153ms to complete.
+[2019.10.03-21.10.42:700][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.422
+[2019.10.03-21.10.42:823][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.03-21.10.42:830][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.03-21.10.42:836][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.03-21.10.42:843][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.03-21.10.42:858][  0]LogCollectionManager: Loaded 0 collections in 0.002363 seconds
+[2019.10.03-21.10.42:882][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Collections/' took 0.00s
+[2019.10.03-21.10.42:882][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/Developers/bennett253/Collections/' took 0.00s
+[2019.10.03-21.10.42:882][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/Collections/' took 0.00s
+[2019.10.03-21.10.42:882][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.10.03-21.10.42:892][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2862 classes and 680 folders.
+[2019.10.03-21.10.42:903][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.03-21.10.43:023][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.03-21.10.43:043][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.10.03-21.10.43:087][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.03-21.10.43:089][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.03-21.10.43:095][  0]LogSlate: Took 0.000766 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.03-21.10.43:165][  0]LogRenderer: Reallocating scene render targets to support 860x572 Format 10 NumSamples 1 (Frame:1).
+[2019.10.03-21.10.43:253][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.03-21.10.43:253][  0]LogLoad: (Engine Initialization) Total time: 7.57 seconds
+[2019.10.03-21.10.43:253][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.03-21.10.43:310][  0]LogAssetRegistry: Asset discovery search completed in 4.2614 seconds
+[2019.10.03-21.10.43:314][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.10.03-21.10.43:314][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2019.10.03-21.10.43:389][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.03-21.10.43:409][  0]LogSlate: Took 0.000981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.03-21.14.20:643][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.03-21.14.44:801][941]LogSlate: Took 0.001926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.03-21.14.44:807][941]LogAssetEditorManager: Opening Asset editor for World /Game/GameGuildMemberFiles/bennett_izzy/Level_Proto.Level_Proto
+[2019.10.03-21.14.44:829][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2019.10.03-21.14.46:101][941]LogSlate: Window 'Save Content' being destroyed
+[2019.10.03-21.14.46:134][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.10.03-21.14.46:148][941]LogSavePackage: Moving '../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Level_Proto279287E942B011D4771F75B30AF02B40.tmp' to '../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/bennett_izzy/Level_Proto.umap'
+[2019.10.03-21.14.46:156][941]LogFileHelpers: Saving map 'Level_Proto' took 0.049
+[2019.10.03-21.14.46:159][941]LightingResults: New page: Lighting Build
+[2019.10.03-21.14.46:159][941]LoadErrors: New page: Loading map: Level_Proto.umap
+[2019.10.03-21.14.46:160][941]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.03-21.14.46:160][941]MapCheck: New page: Map Check
+[2019.10.03-21.14.46:160][941]LightingResults: New page: Lighting Build
+[2019.10.03-21.14.46:184][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.10.03-21.14.46:185][941]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.03-21.14.46:185][941]LogAIModule: Creating AISystem for world Level_Proto
+[2019.10.03-21.14.46:207][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.10.03-21.14.46:227][941]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.03-21.14.46:227][941]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.125ms to complete.
+[2019.10.03-21.14.46:228][941]LogFileHelpers: Loading map 'Level_Proto' took 0.070
+[2019.10.03-21.18.31:927][317]LogActorFactory: Actor Factory created Plane
+[2019.10.03-21.18.32:231][347]LogActorFactory: Actor Factory created Plane
+[2019.10.03-21.18.33:731][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.03-21.18.45:472][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.03-21.18.49:424][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.03-21.18.49:960][877]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.10.03-21.18.53:780][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.03-21.18.59:837][951]LogSlate: Took 0.003020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.03-21.19.02:712][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.03-21.19.09:374][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.10.03-21.19.09:477][ 77]LogSavePackage: Moving '../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Level_ProtoE6D73A6546FA19DA497AA3B96D030537.tmp' to '../../../../../../Users/bennett253/Documents/GitHub/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/bennett_izzy/Level_Proto.umap'
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2E588D5A-41E3-D72B-CE7D-F8AD2FF493D3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8243293%2B%2B%2BUE4%2BRelease-4.23&UserID=993320674afdac039c33b2985646e501%7Cd5ba7f62ebb14b6fbe4953288917be83%7C22c7eb4e-76e8-4220-b659-b095149cd494&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: request failed, libcurl error: 0 (No error)
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x14460173f70 [can pipeline])
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: libcurl info message cache 1 (Re-using existing connection! (#3) with host datarouter.ol.epicgames.com)
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.71.108.254) port 443 (#3))
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: libcurl info message cache 7 (Closing connection 3)
+[2019.10.03-21.19.43:206][119]LogHttp: Warning: 000001440B0E2E80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.03-21.19.43:215][120]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2E588D5A-41E3-D72B-CE7D-F8AD2FF493D3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8243293%2B%2B%2BUE4%2BRelease-4.23&UserID=993320674afdac039c33b2985646e501%7Cd5ba7f62ebb14b6fbe4953288917be83%7C22c7eb4e-76e8-4220-b659-b095149cd494&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.03-21.21.10:593][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.10.03-21.21.42:814][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.10.03-21.42.36:004][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
