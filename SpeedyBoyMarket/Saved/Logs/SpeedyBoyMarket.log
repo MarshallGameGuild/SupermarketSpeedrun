@@ -1,4 +1,4 @@
-﻿Log file open, 10/04/19 18:44:07
+﻿Log file open, 10/04/19 19:14:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: SpeedyBoyMarket
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.106757
+LogStats: Stats thread started at 0.083357
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -126,7 +126,7 @@ LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line:  -EpicPortal -epiclocale=en-US
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -157,422 +157,930 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.04-22.44.08:765][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.10.04-22.44.08:765][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.10.04-22.44.08:765][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.10.04-22.44.08:765][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.04-22.44.08:765][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.10.04-22.44.08:765][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.10.04-22.44.08:765][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.04-22.44.08:766][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.10.04-22.44.08:766][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.10.04-22.44.08:770][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.04-22.44.08:770][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.04-22.44.08:770][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.04-22.44.08:770][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.04-22.44.08:785][  0]LogHAL: Display: Platform has ~ 32 GB [34299015168 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.04-22.44.08:785][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.04-22.44.08:785][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.04-22.44.08:785][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.04-22.44.08:786][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
-[2019.10.04-22.44.08:786][  0]LogInit: Computer: COSWAEC1104-5
-[2019.10.04-22.44.08:786][  0]LogInit: User: snowden11
-[2019.10.04-22.44.08:786][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.04-22.44.08:786][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.04-22.44.08:786][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.10.04-22.44.08:786][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.04-22.44.08:786][  0]LogMemory: Process Physical Memory: 104.27 MB used, 104.27 MB peak
-[2019.10.04-22.44.08:786][  0]LogMemory: Process Virtual Memory: 89.08 MB used, 89.08 MB peak
-[2019.10.04-22.44.08:786][  0]LogMemory: Physical Memory: 11122.98 MB used,  21587.11 MB free, 32710.09 MB total
-[2019.10.04-22.44.08:786][  0]LogMemory: Virtual Memory: 4657.44 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.10.04-22.44.08:789][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.10.04-22.44.08:823][  0]LogInit: Using OS detected language (en-US).
-[2019.10.04-22.44.08:823][  0]LogInit: Using OS detected locale (en-US).
-[2019.10.04-22.44.08:825][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.04-22.44.08:988][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.04-22.44.09:041][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.04-22.44.09:041][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.04-22.44.09:326][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.04-22.44.09:326][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.04-22.44.09:387][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 745' (Feature Level 11_0)
-[2019.10.04-22.44.09:387][  0]LogD3D11RHI:       4053/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.10.04-22.44.09:391][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.04-22.44.09:391][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.04-22.44.09:391][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.04-22.44.09:398][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.04-22.44.09:399][  0]LogD3D11RHI:     GPU DeviceId: 0x1382 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.04-22.44.09:399][  0]LogWindows: EnumDisplayDevices:
-[2019.10.04-22.44.09:399][  0]LogWindows:    0. 'NVIDIA GeForce GTX 745' (P:1 D:1)
-[2019.10.04-22.44.09:399][  0]LogWindows:    1. 'NVIDIA GeForce GTX 745' (P:0 D:0)
-[2019.10.04-22.44.09:399][  0]LogWindows:    2. 'NVIDIA GeForce GTX 745' (P:0 D:0)
-[2019.10.04-22.44.09:400][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2019.10.04-22.44.09:400][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 745
-[2019.10.04-22.44.09:400][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
-[2019.10.04-22.44.09:400][  0]LogD3D11RHI:      Driver Date: 3-16-2018
-[2019.10.04-22.44.09:400][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
-[2019.10.04-22.44.09:437][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.04-22.44.09:453][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.10.04-22.44.09:870][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.10.04-22.44.09:888][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.10.04-22.44.09:907][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.10.04-22.44.09:926][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.10.04-22.44.09:943][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.10.04-22.44.09:961][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.04-22.44.09:979][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.04-22.44.09:998][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.04-22.44.10:004][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.10.04-22.44.10:048][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.10.04-22.44.10:051][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.10.04-22.44.10:089][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.10.04-22.44.10:089][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.10.04-22.44.10:121][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.10.04-22.44.10:121][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.10.04-22.44.10:136][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.10.04-22.44.10:151][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.10.04-22.44.10:165][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.10.04-22.44.10:187][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.10.04-22.44.10:228][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.10.04-22.44.10:228][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.10.04-22.44.10:228][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.04-22.44.10:245][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.04-22.44.10:336][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (V:/SupermarketSpeedrun/SpeedyBoyMarket/Intermediate/Shaders/WorkingDirectory/15088/).
-[2019.10.04-22.44.10:338][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/snowden11/AppData/Local/Temp/UnrealShaderWorkingDir/213DAB384BF71B08D45A02AA27FB534F/'.
-[2019.10.04-22.44.10:342][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.04-22.44.10:343][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.04-22.44.10:343][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.04-22.44.11:037][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.04-22.44.11:084][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/snowden11/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.04-22.44.11:084][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/snowden11/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.10.04-22.44.11:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file V:/SupermarketSpeedrun/SpeedyBoyMarket/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.04-22.44.11:086][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.04-22.44.11:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file V:/SupermarketSpeedrun/SpeedyBoyMarket/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.04-22.44.11:087][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.04-22.44.11:097][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.04-22.44.11:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.04-22.44.11:097][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.10.04-22.44.11:101][  0]LogDerivedDataCache: Using Local data cache path C:/Users/snowden11/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.04-22.44.11:101][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.04-22.44.11:101][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.04-22.44.11:121][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.04-22.44.11:124][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.04-22.44.11:125][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.04-22.44.11:202][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
-[2019.10.04-22.44.11:481][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.04-22.44.11:661][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.04-22.44.11:661][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.04-22.44.11:661][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.04-22.44.11:661][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.04-22.44.11:661][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.04-22.44.11:671][  0]LogNetVersion: SpeedyBoyMarket 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 545933456)
-[2019.10.04-22.44.12:369][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.283325 seconds
-[2019.10.04-22.44.12:378][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.10.04-22.44.12:378][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.10.04-22.44.12:378][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.04-22.44.13:578][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.04-22.44.13:582][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.04-22.44.13:582][  0]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.13:582][  0]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.13:663][  0]SourceControl: Source control is disabled
-[2019.10.04-22.44.13:663][  0]SourceControl: Source control is disabled
-[2019.10.04-22.44.13:665][  0]SourceControl: Source control is disabled
-[2019.10.04-22.44.13:667][  0]SourceControl: Source control is disabled
-[2019.10.04-22.44.13:836][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.04-22.44.13:961][  0]LogOcInput: OculusInput pre-init called
-[2019.10.04-22.44.13:972][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.10.04-22.44.13:972][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.10.04-22.44.14:049][  0]LogEngine: Initializing Engine...
-[2019.10.04-22.44.14:050][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.04-22.44.14:052][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.10.04-22.44.14:318][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.04-22.44.14:344][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.04-22.44.14:360][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.04-22.44.14:398][  0]LogInit: FAudioDevice initialized.
-[2019.10.04-22.44.14:398][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.04-22.44.14:533][  0]LogDerivedDataCache: Saved boot cache 0.14s 73MB C:/Users/snowden11/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.04-22.44.14:534][  0]LogInit: Texture streaming: Enabled
-[2019.10.04-22.44.14:565][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.04-22.44.14:683][  0]LogInit: Transaction tracking system initialized
-[2019.10.04-22.44.14:749][  0]BlueprintLog: New page: Editor Load
-[2019.10.04-22.44.14:905][  0]LocalizationService: Localization service is disabled
-[2019.10.04-22.44.15:198][  0]LogFileCache: Scanning file cache for directory 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/' took 0.01s
-[2019.10.04-22.44.15:198][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.04-22.44.15:198][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.04-22.44.15:457][  0]SourceControl: Source control is disabled
-[2019.10.04-22.44.15:457][  0]Cmd: MAP LOAD FILE="V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.04-22.44.15:458][  0]LightingResults: New page: Lighting Build
-[2019.10.04-22.44.15:462][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.10.04-22.44.15:462][  0]MapCheck: New page: Map Check
-[2019.10.04-22.44.15:462][  0]LightingResults: New page: Lighting Build
-[2019.10.04-22.44.15:486][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
-[2019.10.04-22.44.16:019][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.04-22.44.16:027][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.04-22.44.16:052][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
-[2019.10.04-22.44.16:052][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.04-22.44.16:053][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.551ms to complete.
-[2019.10.04-22.44.16:053][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.596
-[2019.10.04-22.44.16:214][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.04-22.44.16:220][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.04-22.44.16:226][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.04-22.44.16:233][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.04-22.44.16:247][  0]LogCollectionManager: Loaded 0 collections in 0.006330 seconds
-[2019.10.04-22.44.16:255][  0]LogFileCache: Scanning file cache for directory 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Collections/' took 0.00s
-[2019.10.04-22.44.16:255][  0]LogFileCache: Scanning file cache for directory 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/Developers/snowden11/Collections/' took 0.00s
-[2019.10.04-22.44.16:255][  0]LogFileCache: Scanning file cache for directory 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/Collections/' took 0.00s
-[2019.10.04-22.44.16:255][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.10.04-22.44.16:265][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2863 classes and 680 folders.
-[2019.10.04-22.44.16:277][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.10.04-22.44.16:377][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.10.04-22.44.16:386][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.10.04-22.44.16:411][  0]LogSlate: Took 0.000374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.04-22.44.16:415][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.04-22.44.16:420][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.04-22.44.16:492][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
-[2019.10.04-22.44.16:616][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.10.04-22.44.16:635][  0]LogSlate: Window 'Tutorials' being destroyed
-[2019.10.04-22.44.16:649][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.10.04-22.44.16:649][  0]LogLoad: (Engine Initialization) Total time: 11.91 seconds
-[2019.10.04-22.44.16:649][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.04-22.44.16:705][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.04-22.44.16:716][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.04-22.44.16:733][  1]LogAssetRegistry: Asset discovery search completed in 5.5320 seconds
-[2019.10.04-22.44.16:736][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2019.10.04-22.44.16:737][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
-[2019.10.04-22.44.16:871][  2]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.16:872][  2]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/', and we were unable to create a new request.
-[2019.10.04-22.44.16:872][  2]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.16:873][  2]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/', and we were unable to create a new request.
-[2019.10.04-22.44.16:873][  2]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.16:873][  2]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/Developers/snowden11/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.16:873][  2]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.16:879][  3]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/Developers/snowden11/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.16:880][  3]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/Developers/snowden11/Collections/', and we were unable to create a new request.
-[2019.10.04-22.44.16:880][  3]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.16:882][  3]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Collections/', and we were unable to create a new request.
-[2019.10.04-22.44.16:882][  3]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2019.10.04-22.44.16:882][  3]LogDirectoryWatcher: A directory notification failed for 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/Collections/', and we were unable to create a new request.
-[2019.10.04-22.44.17:674][ 95]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.04-22.44.18:275][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.04-22.44.23:039][735]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GameGuildMemberFiles/servo_thomas/Timer.Timer
-[2019.10.04-22.44.23:271][735]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
-[2019.10.04-22.44.24:295][735]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.10.04-22.44.24:356][736]LogSlate: Took 0.010429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.10.04-22.44.41:640][453]LogSlate: Window 'Timer' being destroyed
-[2019.10.04-22.44.41:644][453]LogSlate: Window 'Timer' being destroyed
-[2019.10.04-22.44.41:659][453]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2019.10.04-22.44.54:097][933]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GameGuildMemberFiles/servo_thomas/Timer.Timer
-[2019.10.04-22.44.56:222][109]LogSlate: Window 'Timer' being destroyed
-[2019.10.04-22.44.56:227][109]LogSlate: Window 'Timer' being destroyed
-[2019.10.04-22.44.56:227][109]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2019.10.04-22.45.12:664][ 58]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/GameGuildMemberFiles/servo_thomas/ClockServo.ClockServo
-[2019.10.04-22.45.16:353][416]LogSlate: Window 'ClockServo' being destroyed
-[2019.10.04-22.45.48:732][291]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GameGuildMemberFiles/servo_thomas/Timer.Timer
-[2019.10.04-22.46.07:982][526]LogSlate: Took 0.013609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.10.04-22.49.47:163][667]BlueprintLog: New page: Compile ClockServo
-[2019.10.04-22.49.47:240][667]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
-[2019.10.04-22.49.51:926][220]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
-[2019.10.04-22.49.51:942][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameGuildMemberFiles/servo_thomas/ClockServo" FILE="V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/servo_thomas/ClockServo.uasset" SILENT=true
-[2019.10.04-22.49.52:152][220]LogSavePackage: Moving 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Saved/ClockServo2E2579E54F2D9C5E1EADF7BECF7D0335.tmp' to 'V:/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/servo_thomas/ClockServo.uasset'
+[2019.10.04-23.14.59:528][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.04-23.14.59:528][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.04-23.14.59:528][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.04-23.14.59:528][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.04-23.14.59:528][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.04-23.14.59:528][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.04-23.14.59:528][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.04-23.14.59:528][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.04-23.14.59:528][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.04-23.14.59:528][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.04-23.14.59:528][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.04-23.14.59:528][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.04-23.14.59:529][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.04-23.14.59:529][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.04-23.14.59:533][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.04-23.14.59:533][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.04-23.14.59:534][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.04-23.14.59:534][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.04-23.14.59:534][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.04-23.14.59:539][  0]LogHAL: Display: Platform has ~ 32 GB [34299015168 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.04-23.14.59:539][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.04-23.14.59:539][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.04-23.14.59:539][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Scalability.ini]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.04-23.14.59:540][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.04-23.14.59:541][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.04-23.14.59:541][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.04-23.14.59:541][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Config/Windows/Engine.ini]
+[2019.10.04-23.14.59:541][  0]LogInit: Computer: COSWAEC1104-7
+[2019.10.04-23.14.59:541][  0]LogInit: User: vesel
+[2019.10.04-23.14.59:541][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.04-23.14.59:541][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.04-23.14.59:541][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.10.04-23.14.59:541][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.04-23.14.59:541][  0]LogMemory: Process Physical Memory: 104.49 MB used, 104.50 MB peak
+[2019.10.04-23.14.59:541][  0]LogMemory: Process Virtual Memory: 100.81 MB used, 100.81 MB peak
+[2019.10.04-23.14.59:541][  0]LogMemory: Physical Memory: 8421.78 MB used,  24288.31 MB free, 32710.09 MB total
+[2019.10.04-23.14.59:541][  0]LogMemory: Virtual Memory: 4669.44 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.10.04-23.14.59:546][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.04-23.14.59:645][  0]LogInit: Using OS detected language (en-US).
+[2019.10.04-23.14.59:645][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.04-23.14.59:647][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.04-23.14.59:816][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.04-23.14.59:857][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.04-23.14.59:857][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.04-23.15.00:169][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.04-23.15.00:169][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.04-23.15.00:345][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 745' (Feature Level 11_0)
+[2019.10.04-23.15.00:345][  0]LogD3D11RHI:       4053/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.04-23.15.00:349][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.04-23.15.00:349][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.04-23.15.00:349][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.04-23.15.00:357][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.04-23.15.00:357][  0]LogD3D11RHI:     GPU DeviceId: 0x1382 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.04-23.15.00:357][  0]LogWindows: EnumDisplayDevices:
+[2019.10.04-23.15.00:357][  0]LogWindows:    0. 'NVIDIA GeForce GTX 745' (P:1 D:1)
+[2019.10.04-23.15.00:357][  0]LogWindows:    1. 'NVIDIA GeForce GTX 745' (P:0 D:0)
+[2019.10.04-23.15.00:357][  0]LogWindows:    2. 'NVIDIA GeForce GTX 745' (P:0 D:0)
+[2019.10.04-23.15.00:357][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.10.04-23.15.00:357][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 745
+[2019.10.04-23.15.00:358][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
+[2019.10.04-23.15.00:358][  0]LogD3D11RHI:      Driver Date: 3-16-2018
+[2019.10.04-23.15.00:358][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2019.10.04-23.15.00:392][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.04-23.15.00:409][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.10.04-23.15.00:866][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.04-23.15.00:879][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.04-23.15.00:891][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.04-23.15.00:903][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.04-23.15.00:936][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.04-23.15.00:948][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.04-23.15.00:961][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.04-23.15.00:971][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.04-23.15.00:978][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.04-23.15.01:034][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.04-23.15.01:039][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.04-23.15.01:091][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.04-23.15.01:091][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.04-23.15.01:109][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.04-23.15.01:109][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.04-23.15.01:119][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.04-23.15.01:127][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.04-23.15.01:137][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.04-23.15.01:148][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.04-23.15.01:178][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.04-23.15.01:178][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.04-23.15.01:178][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.04-23.15.01:197][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.04-23.15.01:292][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Intermediate/Shaders/WorkingDirectory/16672/).
+[2019.10.04-23.15.01:294][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vesel/AppData/Local/Temp/UnrealShaderWorkingDir/407382F048C00D935EE1AF858B510B6A/'.
+[2019.10.04-23.15.01:297][  0]LogXGEController: Cleaning working directory: C:/Users/vesel/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.04-23.15.01:298][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.04-23.15.01:298][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.04-23.15.01:298][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.04-23.15.01:955][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.04-23.15.02:330][  0]LogDerivedDataCache: Loaded boot cache 0.38s 74MB C:/Users/vesel/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.04-23.15.02:330][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vesel/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.04-23.15.02:330][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.04-23.15.02:331][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.04-23.15.02:331][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.04-23.15.02:331][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.04-23.15.02:342][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.04-23.15.02:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.04-23.15.02:342][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.04-23.15.02:345][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vesel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.04-23.15.02:346][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.04-23.15.02:346][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.04-23.15.02:365][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.04-23.15.02:368][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.04-23.15.02:369][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.04-23.15.02:562][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2019.10.04-23.15.02:871][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.04-23.15.03:077][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.04-23.15.03:077][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.04-23.15.03:077][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.04-23.15.03:077][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.04-23.15.03:077][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.04-23.15.03:086][  0]LogNetVersion: SpeedyBoyMarket 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 545933456)
+[2019.10.04-23.15.03:519][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.069713 seconds
+[2019.10.04-23.15.03:525][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.04-23.15.03:525][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.04-23.15.03:525][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.04-23.15.05:689][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.04-23.15.05:692][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.04-23.15.05:777][  0]SourceControl: Source control is disabled
+[2019.10.04-23.15.05:777][  0]SourceControl: Source control is disabled
+[2019.10.04-23.15.05:780][  0]SourceControl: Source control is disabled
+[2019.10.04-23.15.05:783][  0]SourceControl: Source control is disabled
+[2019.10.04-23.15.05:991][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.04-23.15.06:162][  0]LogOcInput: OculusInput pre-init called
+[2019.10.04-23.15.06:174][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.04-23.15.06:174][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.04-23.15.06:259][  0]LogEngine: Initializing Engine...
+[2019.10.04-23.15.06:261][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.04-23.15.06:262][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.04-23.15.06:477][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.04-23.15.06:495][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.04-23.15.06:601][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.04-23.15.06:831][  0]LogInit: FAudioDevice initialized.
+[2019.10.04-23.15.06:832][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.04-23.15.06:987][  0]LogDerivedDataCache: Saved boot cache 0.16s 74MB C:/Users/vesel/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.04-23.15.06:991][  0]LogInit: Texture streaming: Enabled
+[2019.10.04-23.15.07:024][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.04-23.15.07:494][  0]LogInit: Transaction tracking system initialized
+[2019.10.04-23.15.07:543][  0]BlueprintLog: New page: Editor Load
+[2019.10.04-23.15.07:664][  0]LocalizationService: Localization service is disabled
+[2019.10.04-23.15.07:964][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Content/' took 0.01s
+[2019.10.04-23.15.07:964][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.04-23.15.07:964][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.04-23.15.08:346][  0]SourceControl: Source control is disabled
+[2019.10.04-23.15.08:346][  0]LightingResults: New page: Lighting Build
+[2019.10.04-23.15.08:350][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.15.08:350][  0]MapCheck: New page: Map Check
+[2019.10.04-23.15.08:350][  0]LightingResults: New page: Lighting Build
+[2019.10.04-23.15.08:375][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.10.04-23.15.08:712][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.04-23.15.08:750][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.04-23.15.08:777][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.10.04-23.15.08:777][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.04-23.15.08:778][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.159ms to complete.
+[2019.10.04-23.15.08:778][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.431
+[2019.10.04-23.15.08:963][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.15.08:969][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.15.08:977][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.15.08:984][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.15.08:994][  0]LogCollectionManager: Loaded 0 collections in 0.002413 seconds
+[2019.10.04-23.15.09:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Collections/' took 0.00s
+[2019.10.04-23.15.09:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Content/Developers/vesel/Collections/' took 0.00s
+[2019.10.04-23.15.09:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Content/Collections/' took 0.00s
+[2019.10.04-23.15.09:014][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.10.04-23.15.09:023][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2863 classes and 680 folders.
+[2019.10.04-23.15.09:031][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.04-23.15.10:585][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.04-23.15.10:593][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.10.04-23.15.10:645][  0]LogSlate: Took 0.033619 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.04-23.15.10:659][  0]LogSlate: Took 0.011712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.04-23.15.10:718][  0]LogSlate: Took 0.045036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.04-23.15.10:809][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2019.10.04-23.15.10:954][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.04-23.15.10:970][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.10.04-23.15.10:983][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.04-23.15.10:983][  0]LogLoad: (Engine Initialization) Total time: 14.06 seconds
+[2019.10.04-23.15.10:983][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.04-23.15.11:038][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.04-23.15.11:078][  0]LogSlate: Took 0.007706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.04-23.15.11:219][  2]LogAssetRegistry: Asset discovery search completed in 8.6569 seconds
+[2019.10.04-23.15.11:222][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.10.04-23.15.11:222][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2019.10.04-23.15.12:009][ 92]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.04-23.17.32:233][809]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
+[2019.10.04-23.17.32:252][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF18665F0-4072-FFC6-F507-A78E21DC2DE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=1f99c7034b1fc491cc8dd6a388b388f6%7C71465ff4ae74411aa3fdeb548618832c%7C5208efd9-5a9f-4674-918f-fffa04925efa&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: request failed, libcurl error: 0 (No error)
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2504a49ff70 [can pipeline])
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.169.76.60) port 443 (#1))
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: libcurl info message cache 7 (Closing connection 1)
+[2019.10.04-23.19.11:031][611]LogHttp: Warning: 00000250603B3100: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.04-23.19.11:039][612]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF18665F0-4072-FFC6-F507-A78E21DC2DE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=1f99c7034b1fc491cc8dd6a388b388f6%7C71465ff4ae74411aa3fdeb548618832c%7C5208efd9-5a9f-4674-918f-fffa04925efa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.04-23.19.21:406][627]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.10.04-23.19.24:852][ 36]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GameGuildMemberFiles/vesel_collin/NewBlueprint.NewBlueprint
+[2019.10.04-23.19.25:090][ 36]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.10.04-23.19.27:459][186]LogSlate: Took 0.016778 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.04-23.19.29:902][446]LogRenderer: Reallocating scene render targets to support 1208x1020 Format 10 NumSamples 1 (Frame:333).
+[2019.10.04-23.19.30:257][487]LogSlate: Window 'NewBlueprint' being destroyed
+[2019.10.04-23.19.43:286][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.10.04-23.19.43:291][896]LogMetaData: Removing '/Game/GameGuildMemberFiles/vesel_collin/Shopper.Shopper:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/GameGuildMemberFiles/vesel_collin/NewBlueprint.PackageMetaData'
+[2019.10.04-23.19.43:291][896]LogMetaData: Removing '/Game/GameGuildMemberFiles/vesel_collin/Shopper.SKEL_Shopper_C' ref from Metadata '/Game/GameGuildMemberFiles/vesel_collin/NewBlueprint.PackageMetaData'
+[2019.10.04-23.19.43:291][896]LogMetaData: Removing '/Game/GameGuildMemberFiles/vesel_collin/Shopper.Shopper_C' ref from Metadata '/Game/GameGuildMemberFiles/vesel_collin/NewBlueprint.PackageMetaData'
+[2019.10.04-23.19.43:291][896]LogMetaData: Removing '/Game/GameGuildMemberFiles/vesel_collin/Shopper.Shopper:EventGraph.K2Node_Event_0' ref from Metadata '/Game/GameGuildMemberFiles/vesel_collin/NewBlueprint.PackageMetaData'
+[2019.10.04-23.19.43:291][896]LogMetaData: Removing '/Game/GameGuildMemberFiles/vesel_collin/Shopper.Shopper:EventGraph.K2Node_Event_1' ref from Metadata '/Game/GameGuildMemberFiles/vesel_collin/NewBlueprint.PackageMetaData'
+[2019.10.04-23.19.43:291][896]LogMetaData: Removing '/Game/GameGuildMemberFiles/vesel_collin/Shopper.Shopper:EventGraph.K2Node_Event_2' ref from Metadata '/Game/GameGuildMemberFiles/vesel_collin/NewBlueprint.PackageMetaData'
+[2019.10.04-23.19.43:324][896]LogSavePackage: Moving '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Shopper476E40CD4CC68AF3BCD404836A1711FD.tmp' to '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/vesel_collin/Shopper.uasset'
+[2019.10.04-23.19.43:477][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.10.04-23.19.43:506][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.10.04-23.19.43:533][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.10.04-23.21.11:172][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.04-23.21.11:257][710]BlueprintLog: New page: Compile Shopper
+[2019.10.04-23.21.11:439][710]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.10.04-23.21.12:475][785]LogSavePackage: Moving '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/ShopperA185F03E446B3726076705B4CFA74A2A.tmp' to '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/vesel_collin/Shopper.uasset'
+[2019.10.04-23.21.39:402][723]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.10.04-23.21.39:545][723]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.04-23.21.40:578][801]LogAssetEditorManager: Opening Asset editor for World /Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap
+[2019.10.04-23.21.40:606][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.10.04-23.21.41:823][801]LogSlate: Window 'Save Content' being destroyed
+[2019.10.04-23.21.41:871][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.10.04-23.21.42:054][801]LogSavePackage: Moving '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/FirstPersonExampleMap7578E8FB4FA13ECC7DAAB9A133DDF000.tmp' to '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.umap'
+[2019.10.04-23.21.42:065][801]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.236
+[2019.10.04-23.21.42:070][801]LightingResults: New page: Lighting Build
+[2019.10.04-23.21.42:070][801]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2019.10.04-23.21.42:083][801]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.21.42:084][801]MapCheck: New page: Map Check
+[2019.10.04-23.21.42:084][801]LightingResults: New page: Lighting Build
+[2019.10.04-23.21.42:129][801]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.10.04-23.21.42:135][801]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.04-23.21.42:165][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.10.04-23.21.42:187][801]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.04-23.21.42:187][801]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.14ms to complete.
+[2019.10.04-23.21.42:188][801]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.120
+[2019.10.04-23.21.47:563][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.04-23.21.54:687][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.04-23.21.54:804][937]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.10.04-23.21.55:002][937]LogSavePackage: Moving '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/FirstPersonExampleMap2FD31C17428A3B726EC68ABCCE4356CA.tmp' to '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.umap'
+[2019.10.04-23.21.56:933][ 93]LogSlate: Took 0.033864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.04-23.23.54:452][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.04-23.25.49:443][991]LogEditorTransaction: Undo Move Node
+[2019.10.04-23.28.25:037][520]LogSlate: Took 0.032752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.10.04-23.28.34:124][599]BlueprintLog: New page: Compile Shopper
+[2019.10.04-23.28.34:298][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.10.04-23.31.18:512][185]BlueprintLog: New page: Compile Shopper
+[2019.10.04-23.31.18:691][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2019.10.04-23.31.26:410][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.04-23.31.26:425][ 88]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.31.26:426][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.04-23.31.26:462][ 88]PIE: New page: PIE session: FirstPersonExampleMap (Oct 4, 2019, 3:31:26 PM)
+[2019.10.04-23.31.26:463][ 88]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.04-23.31.26:464][ 88]LogPlayLevel: Creating play world package: /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap
+[2019.10.04-23.31.26:477][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012248s)
+[2019.10.04-23.31.26:478][ 88]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.04-23.31.26:478][ 88]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2019.10.04-23.31.26:479][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap to /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014037s)
+[2019.10.04-23.31.26:515][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.10.04-23.31.26:521][ 88]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.04-23.31.26:549][ 88]LogInit: FAudioDevice initialized.
+[2019.10.04-23.31.26:560][ 88]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.04-23.31.26:689][ 88]LogWorld: Bringing World /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.04-19.31.26
+[2019.10.04-23.31.26:697][ 88]LogWorld: Bringing up level for play took: 0.014303
+[2019.10.04-23.31.26:698][ 88]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2019.10.04-23.31.26:751][ 88]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.10.04-23.31.26:751][ 88]PIE: Play in editor start time for /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap 0.674
+[2019.10.04-23.31.26:752][ 88]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.31.32:522][407]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.04-23.31.38:563][771]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.10.04-23.31.51:589][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.04-23.32.01:562][524]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.10.04-23.32.03:921][668]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.32.03:922][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.32.03:922][668]LogWorld: BeginTearingDown for /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap
+[2019.10.04-23.32.03:923][668]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.32.03:940][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.04-23.32.03:940][668]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.32.04:024][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.32.04:056][668]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2019.10.04-23.32.04:073][669]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.10.04-23.32.47:591][844]BlueprintLog: New page: Compile Shopper
+[2019.10.04-23.32.47:835][844]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.10.04-23.32.50:987][219]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.04-23.32.50:999][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.32.50:999][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.04-23.32.50:999][219]PIE: New page: PIE session: FirstPersonExampleMap (Oct 4, 2019, 3:32:50 PM)
+[2019.10.04-23.32.50:999][219]LogPlayLevel: Creating play world package: /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap
+[2019.10.04-23.32.51:014][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014575s)
+[2019.10.04-23.32.51:015][219]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.04-23.32.51:015][219]LogPlayLevel: PIE: World Init took: (0.001297s)
+[2019.10.04-23.32.51:015][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap to /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016051s)
+[2019.10.04-23.32.51:056][219]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2019.10.04-23.32.51:062][219]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.04-23.32.51:088][219]LogInit: FAudioDevice initialized.
+[2019.10.04-23.32.51:093][219]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.04-23.32.51:096][219]LogWorld: Bringing World /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.04-19.32.51
+[2019.10.04-23.32.51:096][219]LogWorld: Bringing up level for play took: 0.002330
+[2019.10.04-23.32.51:096][219]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2019.10.04-23.32.51:098][219]PIE: Play in editor start time for /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap 1.021
+[2019.10.04-23.32.51:098][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.33.02:849][913]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=29.15 Y=15.51 Z=0.00 Location: X=1113.04 Y=318.13 Z=266.54 Normal: X=-0.43 Y=-0.82 Z=-0.38 PenetrationDepth:7.452 Actor:Shopper_2 Component:Cone BoneName:None (0 other events since notify)
+[2019.10.04-23.33.08:600][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.04-23.33.13:234][523]LogEditorViewport: Clicking on Actor (LMB): Shopper_C (Shopper)
+[2019.10.04-23.33.23:817][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.04-23.33.23:886][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.33.23:886][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.33.23:886][ 76]LogWorld: BeginTearingDown for /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap
+[2019.10.04-23.33.23:887][ 76]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.33.23:906][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.04-23.33.23:907][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.33.23:947][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.33.23:951][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.10.04-23.33.23:986][ 78]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.10.04-23.33.32:727][120]BlueprintLog: New page: Compile Shopper
+[2019.10.04-23.33.32:934][120]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2019.10.04-23.33.35:078][373]BlueprintLog: New page: Compile Shopper
+[2019.10.04-23.33.35:288][373]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2019.10.04-23.33.36:027][460]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.04-23.33.36:039][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.33.36:039][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.04-23.33.36:039][460]PIE: New page: PIE session: FirstPersonExampleMap (Oct 4, 2019, 3:33:36 PM)
+[2019.10.04-23.33.36:040][460]LogPlayLevel: Creating play world package: /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap
+[2019.10.04-23.33.36:052][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012449s)
+[2019.10.04-23.33.36:053][460]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.04-23.33.36:053][460]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2019.10.04-23.33.36:053][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap to /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013791s)
+[2019.10.04-23.33.36:093][460]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2019.10.04-23.33.36:098][460]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.04-23.33.36:123][460]LogInit: FAudioDevice initialized.
+[2019.10.04-23.33.36:131][460]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.04-23.33.36:134][460]LogWorld: Bringing World /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.04-19.33.36
+[2019.10.04-23.33.36:134][460]LogWorld: Bringing up level for play took: 0.001935
+[2019.10.04-23.33.36:134][460]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.10.04-23.33.36:136][460]PIE: Play in editor start time for /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap 0.058
+[2019.10.04-23.33.36:136][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.33.38:112][569]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.04-23.33.40:664][719]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.04-23.33.42:140][803]LogEditorViewport: Clicking on Actor (LMB): Shopper_C (Shopper)
+[2019.10.04-23.33.49:137][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.04-23.33.49:225][176]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.33.49:225][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.33.49:225][176]LogWorld: BeginTearingDown for /Game/GameGuildMemberFiles/vesel_collin/UEDPIE_0_FirstPersonExampleMap
+[2019.10.04-23.33.49:226][176]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.33.49:243][176]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.04-23.33.49:243][176]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.04-23.33.49:283][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.04-23.33.49:287][176]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.10.04-23.33.49:328][179]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.10.04-23.35.02:075][764]BlueprintLog: New page: Compile Shopper
+[2019.10.04-23.35.02:291][764]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.10.04-23.35.02:743][808]LogSavePackage: Moving '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/Shopper883F7E1647D0D9085DECBD8E27F9C6F6.tmp' to '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/vesel_collin/Shopper.uasset'
+[2019.10.04-23.35.09:057][542]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2019.10.04-23.35.09:343][542]LogSavePackage: Moving '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Saved/FirstPersonExampleMap5A29A2D346C38F44A81AE899F7D17EC4.tmp' to '../../../../../../Users/vesel/Documents/GitHub/subGit/SupermarketSpeedrun/SpeedyBoyMarket/Content/GameGuildMemberFiles/vesel_collin/FirstPersonExampleMap.umap'
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF18665F0-4072-FFC6-F507-A78E21DC2DE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=1f99c7034b1fc491cc8dd6a388b388f6%7C71465ff4ae74411aa3fdeb548618832c%7C5208efd9-5a9f-4674-918f-fffa04925efa&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: request failed, libcurl error: 0 (No error)
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2504a49ff70 [can pipeline])
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: libcurl info message cache 1 (Re-using existing connection! (#8) with host datarouter.ol.epicgames.com)
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.171.83) port 443 (#8))
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: libcurl info message cache 7 (Closing connection 8)
+[2019.10.04-23.35.11:085][681]LogHttp: Warning: 0000025010D1BD80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.04-23.35.11:098][682]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF18665F0-4072-FFC6-F507-A78E21DC2DE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=1f99c7034b1fc491cc8dd6a388b388f6%7C71465ff4ae74411aa3fdeb548618832c%7C5208efd9-5a9f-4674-918f-fffa04925efa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.04-23.35.16:886][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.10.04-23.35.16:944][ 28]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.35.16:977][ 28]LogSlate: Window 'SpeedyBoyMarket - Unreal Editor' being destroyed
+[2019.10.04-23.35.17:081][ 29]Cmd: QUIT_EDITOR
+[2019.10.04-23.35.17:915][ 29]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.04-23.35.17:962][ 29]LogExit: Preparing to exit.
+[2019.10.04-23.35.18:399][ 29]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.35.18:402][ 29]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.35.18:404][ 29]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.35.18:440][ 29]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.10.04-23.35.18:448][ 29]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.10.04-23.35.18:448][ 29]LogExit: Editor shut down
+[2019.10.04-23.35.18:451][ 29]LogExit: Transaction tracking system shut down
+[2019.10.04-23.35.18:800][ 29]LogExit: Object subsystem successfully closed.
+[2019.10.04-23.35.18:819][ 29]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (674)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module Voice (672)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module BlueprintGraph (670)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (668)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module SceneOutliner (666)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module AddContentDialog (664)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module WidgetCarousel (663)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module EditorWidgets (660)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module CollectionManager (658)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module StatsViewer (656)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (654)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module FoliageEdit (652)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module LandscapeEditor (650)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module MeshPaintMode (648)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (646)
+[2019.10.04-23.35.18:861][ 29]LogModuleManager: Shutting down and abandoning module ActorPickerMode (644)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module GeometryMode (642)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module TextureAlignMode (640)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module BspMode (638)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (636)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (634)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module AutomationWorker (632)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module OculusMR (630)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (628)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (626)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (624)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module PlacementMode (623)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module MaterialEditor (622)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (618)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (616)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (614)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (612)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (610)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module WebMMedia (608)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (606)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (604)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module SequenceRecorder (603)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (600)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (598)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (596)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (594)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (592)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (590)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (588)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (586)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (584)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (582)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (580)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module CharacterAI (578)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module SmartSnapping (576)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module SessionServices (574)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module MeshPaint (572)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module ViewportSnapping (570)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module ViewportInteraction (568)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module ClothPainter (566)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (565)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module LogVisualizer (562)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module IntroTutorials (560)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (559)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (556)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (554)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (552)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (550)
+[2019.10.04-23.35.18:862][ 29]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (549)
+[2019.10.04-23.35.19:381][ 29]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (546)
+[2019.10.04-23.35.19:381][ 29]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (544)
+[2019.10.04-23.35.19:381][ 29]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (542)
+[2019.10.04-23.35.19:381][ 29]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (540)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (538)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module InputBindingEditor (536)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module MergeActors (534)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (532)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module LocalizationService (531)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module HardwareTargeting (528)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (526)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module UndoHistory (524)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module XmlParser (522)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module Blutility (520)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (518)
+[2019.10.04-23.35.19:382][ 29]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (517)
+[2019.10.04-23.35.19:383][ 29]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (514)
+[2019.10.04-23.35.19:383][ 29]LogModuleManager: Shutting down and abandoning module SettingsEditor (512)
+[2019.10.04-23.35.19:383][ 29]LogModuleManager: Shutting down and abandoning module ProjectLauncher (510)
+[2019.10.04-23.35.19:383][ 29]LogModuleManager: Shutting down and abandoning module SessionFrontend (508)
+[2019.10.04-23.35.19:383][ 29]LogModuleManager: Shutting down and abandoning module ProfilerClient (506)
+[2019.10.04-23.35.19:383][ 29]LogModuleManager: Shutting down and abandoning module DeviceManager (504)
+[2019.10.04-23.35.19:383][ 29]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (503)
+[2019.10.04-23.35.19:436][ 29]LogModuleManager: Shutting down and abandoning module AutomationController (500)
+[2019.10.04-23.35.19:436][ 29]LogModuleManager: Shutting down and abandoning module AutomationWindow (498)
+[2019.10.04-23.35.19:436][ 29]LogModuleManager: Shutting down and abandoning module Layers (496)
+[2019.10.04-23.35.19:436][ 29]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (494)
+[2019.10.04-23.35.19:436][ 29]LogModuleManager: Shutting down and abandoning module DetailCustomizations (492)
+[2019.10.04-23.35.19:436][ 29]LogModuleManager: Shutting down and abandoning module PackagesDialog (490)
+[2019.10.04-23.35.19:437][ 29]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (488)
+[2019.10.04-23.35.19:437][ 29]LogModuleManager: Shutting down and abandoning module Persona (486)
+[2019.10.04-23.35.19:437][ 29]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (485)
+[2019.10.04-23.35.19:437][ 29]LogModuleManager: Shutting down and abandoning module AnimGraph (483)
+[2019.10.04-23.35.19:437][ 29]LogModuleManager: Shutting down and abandoning module Kismet (480)
+[2019.10.04-23.35.19:467][ 29]LogModuleManager: Shutting down and abandoning module KismetWidgets (479)
+[2019.10.04-23.35.19:468][ 29]LogModuleManager: Shutting down and abandoning module GraphEditor (476)
+[2019.10.04-23.35.19:468][ 29]LogModuleManager: Shutting down and abandoning module StructViewer (474)
+[2019.10.04-23.35.19:468][ 29]LogModuleManager: Shutting down and abandoning module ClassViewer (472)
+[2019.10.04-23.35.19:472][ 29]LogModuleManager: Shutting down and abandoning module Toolbox (470)
+[2019.10.04-23.35.19:472][ 29]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
+[2019.10.04-23.35.19:472][ 29]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
+[2019.10.04-23.35.19:472][ 29]LogModuleManager: Shutting down and abandoning module OutputLog (464)
+[2019.10.04-23.35.19:473][ 29]LogModuleManager: Shutting down and abandoning module GammaUI (462)
+[2019.10.04-23.35.19:473][ 29]LogModuleManager: Shutting down and abandoning module Documentation (460)
+[2019.10.04-23.35.19:473][ 29]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
+[2019.10.04-23.35.19:473][ 29]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
+[2019.10.04-23.35.19:473][ 29]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2019.10.04-23.35.19:473][ 29]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module DesktopPlatform (430)
+[2019.10.04-23.35.19:474][ 29]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (428)
+[2019.10.04-23.35.19:485][ 29]LogModuleManager: Shutting down and abandoning module ProfilerService (426)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module TaskGraph (424)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module ScreenshotTools (422)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module SteamVRController (420)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (418)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (416)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module OculusEditor (414)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module OculusInput (412)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (410)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module EditableMesh (408)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (406)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module CableComponent (404)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module AudioCapture (402)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (400)
+[2019.10.04-23.35.19:695][ 29]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (398)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module AppleImageUtils (396)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module AndroidPermission (394)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (392)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (390)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module MediaCompositing (388)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module ImgMedia (386)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module HTML5Networking (378)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (376)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (374)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module BackChannel (372)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (370)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module AutomationUtils (368)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module AlembicImporter (366)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module AlembicLibrary (365)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module GeometryCache (364)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (363)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module VariantManagerContent (358)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (356)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (354)
+[2019.10.04-23.35.19:696][ 29]LogModuleManager: Shutting down and abandoning module PluginBrowser (352)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (350)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (348)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module CurveEditorTools (346)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module CurveEditor (345)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (342)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module CryptoKeys (340)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (338)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (330)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module GitSourceControl (328)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module SourceControl (327)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (322)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (320)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (318)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (316)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (314)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (312)
+[2019.10.04-23.35.19:697][ 29]LogModuleManager: Shutting down and abandoning module Paper2DEditor (310)
+[2019.10.04-23.35.19:698][ 29]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2019.10.04-23.35.19:698][ 29]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2019.10.04-23.35.19:698][ 29]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2019.10.04-23.35.19:698][ 29]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2019.10.04-23.35.19:698][ 29]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2019.10.04-23.35.19:698][ 29]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2019.10.04-23.35.19:800][ 29]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2019.10.04-23.35.19:900][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2019.10.04-23.35.19:900][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2019.10.04-23.35.19:900][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2019.10.04-23.35.19:900][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2019.10.04-23.35.19:900][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2019.10.04-23.35.19:900][ 29]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.10.04-23.35.19:902][ 29]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2019.10.04-23.35.19:902][ 29]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2019.10.04-23.35.19:902][ 29]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.10.04-23.35.19:902][ 29]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.10.04-23.35.19:902][ 29]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.10.04-23.35.19:902][ 29]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.10.04-23.35.19:902][ 29]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.10.04-23.35.19:902][ 29]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.10.04-23.35.19:905][ 29]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.10.04-23.35.19:905][ 29]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.10.04-23.35.19:905][ 29]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.10.04-23.35.19:905][ 29]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.10.04-23.35.19:915][ 29]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.10.04-23.35.19:918][ 29]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.10.04-23.35.19:918][ 29]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2019.10.04-23.35.19:918][ 29]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.10.04-23.35.19:918][ 29]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.10.04-23.35.19:918][ 29]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.10.04-23.35.19:925][ 29]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.10.04-23.35.19:926][ 29]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.10.04-23.35.19:926][ 29]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.10.04-23.35.19:926][ 29]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.10.04-23.35.19:926][ 29]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.10.04-23.35.19:926][ 29]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.10.04-23.35.19:926][ 29]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.10.04-23.35.19:926][ 29]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.10.04-23.35.19:927][ 29]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.10.04-23.35.19:927][ 29]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.10.04-23.35.19:928][ 29]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.10.04-23.35.19:928][ 29]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.10.04-23.35.19:928][ 29]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.10.04-23.35.19:928][ 29]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.10.04-23.35.19:928][ 29]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.10.04-23.35.19:928][ 29]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.10.04-23.35.19:928][ 29]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.10.04-23.35.19:928][ 29]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.10.04-23.35.19:928][ 29]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.10.04-23.35.19:929][ 29]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.10.04-23.35.19:929][ 29]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.10.04-23.35.19:929][ 29]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.10.04-23.35.19:929][ 29]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.10.04-23.35.19:929][ 29]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.10.04-23.35.19:929][ 29]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.10.04-23.35.19:929][ 29]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.10.04-23.35.19:929][ 29]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.10.04-23.35.19:929][ 29]LogDerivedDataCache: Shutdown
+[2019.10.04-23.35.19:929][ 29]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.10.04-23.35.19:929][ 29]LogXGEController: Cleaning working directory: C:/Users/vesel/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.04-23.35.19:933][ 29]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.10.04-23.35.19:934][ 29]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.10.04-23.35.19:936][ 29]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.10.04-23.35.19:936][ 29]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.10.04-23.35.19:936][ 29]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.10.04-23.35.19:936][ 29]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.10.04-23.35.19:936][ 29]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.10.04-23.35.19:937][ 29]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.10.04-23.35.19:937][ 29]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.10.04-23.35.19:939][ 29]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.10.04-23.35.19:939][ 29]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.10.04-23.35.19:955][ 29]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.10.04-23.35.19:955][ 29]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.10.04-23.35.19:956][ 29]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.10.04-23.35.19:957][ 29]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.10.04-23.35.19:957][ 29]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.10.04-23.35.19:957][ 29]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.10.04-23.35.19:957][ 29]LogHMD: Freeing OpenVRDLLHandle.
+[2019.10.04-23.35.19:957][ 29]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.10.04-23.35.19:957][ 29]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.10.04-23.35.19:957][ 29]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.10.04-23.35.19:957][ 29]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.10.04-23.35.19:957][ 29]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.10.04-23.35.19:958][ 29]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.10.04-23.35.19:958][ 29]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.10.04-23.35.19:970][ 29]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.10.04-23.35.19:970][ 29]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.10.04-23.35.19:970][ 29]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF18665F0-4072-FFC6-F507-A78E21DC2DE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=1f99c7034b1fc491cc8dd6a388b388f6%7C71465ff4ae74411aa3fdeb548618832c%7C5208efd9-5a9f-4674-918f-fffa04925efa&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.10.04-23.35.20:000][ 29]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.10.04-23.35.20:003][ 29]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.10.04-23.35.20:005][ 29]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.10.04-23.35.20:007][ 29]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.10.04-23.35.20:007][ 29]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.10.04-23.35.20:008][ 29]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.10.04-23.35.20:008][ 29]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.10.04-23.35.20:008][ 29]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.10.04-23.35.20:008][ 29]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.10.04-23.35.20:008][ 29]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.10.04-23.35.20:008][ 29]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.10.04-23.35.20:009][ 29]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.10.04-23.35.20:009][ 29]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.10.04-23.35.20:009][ 29]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.10.04-23.35.20:009][ 29]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.10.04-23.35.20:011][ 29]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.10.04-23.35.20:011][ 29]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.10.04-23.35.20:011][ 29]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.10.04-23.35.20:011][ 29]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.10.04-23.35.20:012][ 29]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.10.04-23.35.20:012][ 29]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.10.04-23.35.20:012][ 29]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.10.04-23.35.20:012][ 29]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.10.04-23.35.20:012][ 29]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.10.04-23.35.20:012][ 29]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.10.04-23.35.20:012][ 29]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.10.04-23.35.20:012][ 29]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.10.04-23.35.20:013][ 29]LogD3D11RHI: Shutdown
+[2019.10.04-23.35.20:013][ 29]LogD3D11RHI: CleanupD3DDevice
+[2019.10.04-23.35.20:014][ 29]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.04-23.35.20:014][ 29]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.04-23.35.20:014][ 29]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.04-23.35.20:108][ 29]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.04-23.35.20:116][ 29]LogExit: Exiting.
+[2019.10.04-23.35.20:166][ 29]Log file closed, 10/04/19 19:35:20
